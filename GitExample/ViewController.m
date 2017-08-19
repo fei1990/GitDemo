@@ -10,13 +10,20 @@
 
 @interface ViewController ()
 
+@property (nonatomic, assign) int sum;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    int a = 10;
+    int b = 20;
+    _sum = a + b;
+    NSLog(@"%d", _sum);
+    
 }
 
 
