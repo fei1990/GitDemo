@@ -29,6 +29,8 @@
     
     [self minusMethod];
     
+    [self helloWord];
+    
 }
 
 
@@ -48,6 +50,10 @@
     int c = 5;
     int d = _sum - c;
     NSLog(@"%d", d);
+}
+
+- (void)helloWord {
+    NSLog(@"%s", __func__);
 }
 
 @end
