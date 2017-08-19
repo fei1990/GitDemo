@@ -14,6 +14,8 @@
 
 @property (nonatomic, copy) NSArray *arr;
 
+@property (nonatomic, copy) NSString *str;
+
 @end
 
 @implementation ViewController
