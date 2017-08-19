@@ -19,7 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self sumMethod];
     
+    [self minusMethod];
     
 }
 
@@ -36,5 +38,10 @@
     NSLog(@"%d", _sum);
 }
 
+- (void)minusMethod {
+    int c = 5;
+    int d = _sum - c;
+    NSLog(@"%d", d);
+}
 
 @end
