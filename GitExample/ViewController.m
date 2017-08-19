@@ -12,6 +12,8 @@
 
 @property (nonatomic, assign) int sum;
 
+@property (nonatomic, copy) NSArray *arr;
+
 @end
 
 @implementation ViewController
