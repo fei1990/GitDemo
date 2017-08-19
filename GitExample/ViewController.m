@@ -19,10 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    int a = 10;
-    int b = 20;
-    _sum = a + b;
-    NSLog(@"%d", _sum);
+    
     
 }
 
@@ -30,6 +27,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)sumMethod {
+    int a = 10;
+    int b = 20;
+    _sum = a + b;
+    NSLog(@"%d", _sum);
 }
 
 
