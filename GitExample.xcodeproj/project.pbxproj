@@ -16,6 +16,7 @@
 		7B4A011A1F48066600C5A098 /* GitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4A01191F48066600C5A098 /* GitExampleTests.m */; };
 		7B4A01251F48066600C5A098 /* GitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4A01241F48066600C5A098 /* GitExampleUITests.m */; };
 		7BB44FB02056283C003D957D /* Amodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB44FAE2056283C003D957D /* Amodel.m */; };
+		7B4DDCE320564EE80038082C /* BModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4DDCE220564EE80038082C /* BModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		7B4A01261F48066600C5A098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BB44FAE2056283C003D957D /* Amodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amodel.m; sourceTree = "<group>"; };
 		7BB44FAF2056283C003D957D /* Amodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amodel.h; sourceTree = "<group>"; };
+		7B4DDCE120564EE80038082C /* BModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BModel.h; sourceTree = "<group>"; };
+		7B4DDCE220564EE80038082C /* BModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				7B4A010D1F48066600C5A098 /* LaunchScreen.storyboard */,
 				7B4A01101F48066600C5A098 /* Info.plist */,
 				7B4A00FF1F48066600C5A098 /* Supporting Files */,
+				7B4DDCE120564EE80038082C /* BModel.h */,
+				7B4DDCE220564EE80038082C /* BModel.m */,
 			);
 			path = GitExample;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 				7B4A01071F48066600C5A098 /* ViewController.m in Sources */,
 				7BB44FB02056283C003D957D /* Amodel.m in Sources */,
 				7B4A01041F48066600C5A098 /* AppDelegate.m in Sources */,
+				7B4DDCE320564EE80038082C /* BModel.m in Sources */,
 				7B4A01011F48066600C5A098 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
