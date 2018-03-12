@@ -31,9 +31,13 @@
     
     [self helloWord];
     
+
     NSLog(@"another branch...");
     
     NSLog(@"branch111...");
+
+    [self method1];
+
     
 }
 
@@ -58,6 +62,10 @@
 
 - (void)helloWord {
     NSLog(@"%s", __func__);
+}
+
+- (void)method1 {
+    NSLog(@"你好。。。");
 }
 
 @end
