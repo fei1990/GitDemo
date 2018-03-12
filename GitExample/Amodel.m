@@ -10,4 +10,11 @@
 
 @implementation Amodel
 
+- (instancetype)init {
+    if (self = [super init]) {
+        NSLog(@"%s", __func__);
+    }
+    return self;
+}
+
 @end
