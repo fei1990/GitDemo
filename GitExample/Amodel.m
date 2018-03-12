@@ -34,4 +34,8 @@
     NSLog(@"你好");
 }
 
+- (void)see {
+    NSLog(@"%s", __func__);
+}
+
 @end
