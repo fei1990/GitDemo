@@ -17,4 +17,8 @@
     return self;
 }
 
+- (void)run {
+    NSLog(@"%s", __func__);
+}
+
 @end
