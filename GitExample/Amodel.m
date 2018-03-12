@@ -25,4 +25,8 @@
     NSLog(@"%s", __func__);
 }
 
+- (void)walk {
+    NSLog(@"%s", __func__);
+}
+
 @end
