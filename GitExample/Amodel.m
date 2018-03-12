@@ -21,4 +21,8 @@
     NSLog(@"%s", __func__);
 }
 
+- (void)say {
+    NSLog(@"%s", __func__);
+}
+
 @end
