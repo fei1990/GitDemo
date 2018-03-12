@@ -29,4 +29,9 @@
     NSLog(@"%s", __func__);
 }
 
+- (void)look {
+    NSLog(@"%s", __func__);
+    NSLog(@"你好");
+}
+
 @end
