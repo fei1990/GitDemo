@@ -20,6 +20,9 @@
 - (void)hello {
     NSLog(@"hello...");
     NSLog(@"%s", __func__);
+    
+    NSLog(@"stash1...");
+    
 }
 
 - (void)method {
