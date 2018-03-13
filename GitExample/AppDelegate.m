@@ -20,7 +20,10 @@
 
     NSLog(@"hi....");
     
+    NSLog(@"hhhh....");
+    
     NSLog(@"你好。。。");
+
 
     return YES;
 }
