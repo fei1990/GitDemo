@@ -17,4 +17,8 @@
     return self;
 }
 
+- (void)hello {
+    NSLog(@"hello...");
+}
+
 @end
