@@ -19,6 +19,7 @@
 
 - (void)hello {
     NSLog(@"hello...");
+    NSLog(@"%s", __func__);
 }
 
 @end
