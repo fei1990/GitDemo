@@ -25,27 +25,27 @@
     return self;
 }
 
-//1.消息动态解析
-+ (BOOL)resolveInstanceMethod:(SEL)sel {
-//    if (![self respondsToSelector:sel]) {
-//        return class_addMethod([self class], sel, (IMP)dynamicMethod, "v@:");
+////1.消息动态解析
+//+ (BOOL)resolveInstanceMethod:(SEL)sel {
+////    if (![self respondsToSelector:sel]) {
+////        return class_addMethod([self class], sel, (IMP)dynamicMethod, "v@:");
+////    }
+//    return [super resolveInstanceMethod:sel];
+//}
+//
+//void dynamicMethod(id self, SEL _cmd) {
+//    NSLog(@"%s", __func__);
+//}
+//
+////2.消息重定向
+//- (id)forwardingTargetForSelector:(SEL)aSelector {
+//    
+//    if (![self respondsToSelector:aSelector]) {
+//        return self.model1;
 //    }
-    return [super resolveInstanceMethod:sel];
-}
-
-void dynamicMethod(id self, SEL _cmd) {
-    NSLog(@"%s", __func__);
-}
-
-//2.消息重定向
-- (id)forwardingTargetForSelector:(SEL)aSelector {
-    
-    if (![self respondsToSelector:aSelector]) {
-        return self.model1;
-    }
-    
-    return [super forwardingTargetForSelector:aSelector];
-}
+//    
+//    return [super forwardingTargetForSelector:aSelector];
+//}
 
 //3.消息转发
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
@@ -56,7 +56,7 @@ void dynamicMethod(id self, SEL _cmd) {
         [anInvocation invokeWithTarget:self.model1];
         return;
     }
-    return [super forwardInvocation:anInvocation];
+    [super forwardInvocation:anInvocation];
 }
 
 //- (void)msgTest {
