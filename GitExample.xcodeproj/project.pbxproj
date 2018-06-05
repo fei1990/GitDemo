@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B03862320C134C0000E2E77 /* MsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B03862220C134C0000E2E77 /* MsgModel.m */; };
+		7B03862620C1409F000E2E77 /* Model1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B03862520C1409F000E2E77 /* Model1.m */; };
 		7B4A01011F48066600C5A098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4A01001F48066600C5A098 /* main.m */; };
 		7B4A01041F48066600C5A098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4A01031F48066600C5A098 /* AppDelegate.m */; };
 		7B4A01071F48066600C5A098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4A01061F48066600C5A098 /* ViewController.m */; };
@@ -15,8 +17,8 @@
 		7B4A010F1F48066600C5A098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4A010D1F48066600C5A098 /* LaunchScreen.storyboard */; };
 		7B4A011A1F48066600C5A098 /* GitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4A01191F48066600C5A098 /* GitExampleTests.m */; };
 		7B4A01251F48066600C5A098 /* GitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4A01241F48066600C5A098 /* GitExampleUITests.m */; };
-		7BB44FB02056283C003D957D /* Amodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB44FAE2056283C003D957D /* Amodel.m */; };
 		7B4DDCE320564EE80038082C /* BModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4DDCE220564EE80038082C /* BModel.m */; };
+		7BB44FB02056283C003D957D /* Amodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB44FAE2056283C003D957D /* Amodel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B03862120C134C0000E2E77 /* MsgModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgModel.h; sourceTree = "<group>"; };
+		7B03862220C134C0000E2E77 /* MsgModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgModel.m; sourceTree = "<group>"; };
+		7B03862420C1409F000E2E77 /* Model1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model1.h; sourceTree = "<group>"; };
+		7B03862520C1409F000E2E77 /* Model1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model1.m; sourceTree = "<group>"; };
 		7B4A00FC1F48066600C5A098 /* GitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4A01001F48066600C5A098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B4A01021F48066600C5A098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,10 +59,10 @@
 		7B4A01201F48066600C5A098 /* GitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4A01241F48066600C5A098 /* GitExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitExampleUITests.m; sourceTree = "<group>"; };
 		7B4A01261F48066600C5A098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BB44FAE2056283C003D957D /* Amodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amodel.m; sourceTree = "<group>"; };
-		7BB44FAF2056283C003D957D /* Amodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amodel.h; sourceTree = "<group>"; };
 		7B4DDCE120564EE80038082C /* BModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BModel.h; sourceTree = "<group>"; };
 		7B4DDCE220564EE80038082C /* BModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BModel.m; sourceTree = "<group>"; };
+		7BB44FAE2056283C003D957D /* Amodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amodel.m; sourceTree = "<group>"; };
+		7BB44FAF2056283C003D957D /* Amodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amodel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,10 @@
 				7B4A00FF1F48066600C5A098 /* Supporting Files */,
 				7B4DDCE120564EE80038082C /* BModel.h */,
 				7B4DDCE220564EE80038082C /* BModel.m */,
+				7B03862120C134C0000E2E77 /* MsgModel.h */,
+				7B03862220C134C0000E2E77 /* MsgModel.m */,
+				7B03862420C1409F000E2E77 /* Model1.h */,
+				7B03862520C1409F000E2E77 /* Model1.m */,
 			);
 			path = GitExample;
 			sourceTree = "<group>";
@@ -289,7 +299,9 @@
 				7B4A01071F48066600C5A098 /* ViewController.m in Sources */,
 				7BB44FB02056283C003D957D /* Amodel.m in Sources */,
 				7B4A01041F48066600C5A098 /* AppDelegate.m in Sources */,
+				7B03862320C134C0000E2E77 /* MsgModel.m in Sources */,
 				7B4DDCE320564EE80038082C /* BModel.m in Sources */,
+				7B03862620C1409F000E2E77 /* Model1.m in Sources */,
 				7B4A01011F48066600C5A098 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

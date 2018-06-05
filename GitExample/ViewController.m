@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MsgModel.h"
 
 @interface ViewController ()
 
@@ -38,6 +39,10 @@
 
     [self method1];
 
+    MsgModel *msg = [[MsgModel alloc]init];
+    [msg performSelector:@selector(msgTest)];
+//    [msg performSelector:@selector(msgTest1)];
+//    [msg performSelector:@selector(msgTest)];
     
 }
 
